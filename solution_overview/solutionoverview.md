@@ -7,7 +7,7 @@ Joule, an AI-powered technology that delivers a copilot experience using natural
 Joule will initially be available in English for US and European data centers and will be rolled out to other regions in 2024 and beyond.  Refer to [Data Center Mapping between SuccessFactors and Joule](https://help.sap.com/docs/joule/serviceguide/data-center-mapping-between-sap-successfactors-and-joule).
 
 
-The setup process for Joule with SuccessFactors requires integration across multiple SAP components as depicted in the picture below.  
+The setup process for Joule with SuccessFactors requires integration across multiple SAP components as depicted in the picture below.<br/>
 ![run_booster](1.jpg)
 
 This purpose of this guide is to provide step by step instructions on how to set up Joule with SAP SuccessFactors.
