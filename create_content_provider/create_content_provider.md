@@ -9,19 +9,19 @@
 3. Select the **Launchpad_Admin** and click **Assign Role Collection**.</br>
 ![create_content_provider](3.jpg) 
 
-5. From the Navigation Pane on the left, select **Instances and Subscriptions***. Click **SAP Build Work Zone, standard edition** to launch the application.</br>  
+4. From the Navigation Pane on the left, select **Instances and Subscriptions***. Click **SAP Build Work Zone, standard edition** to launch the application.</br>  
 ![create_content_provider](4.jpg) 
 
-6. If prompted to choose the authentication provider, click **Default Identity Provider**.</br>
+5. If prompted to choose the authentication provider, click **Default Identity Provider**.</br>
 ![create_content_provider](4-1.jpg) 
 
-7. Click **Channel Manager** icon.</br>     
+6. Click **Channel Manager** icon.</br>     
 ![create_content_provider](5.jpg)  
 
-8. Click **+New**.</br>          
+7. Click **+New**.</br>          
 ![create_content_provider](6.jpg)
 
-9. Add a new content provider using the information below and click **Save**:
+8. Add a new content provider using the information below and click **Save**:
   * Title: <-- Title of your choice eg. **SFSF** -->
   * Design-Time Destination: <-- Design time destination created earlier eg. **LPS_SFSF_dt** -->
   * Runtime Destination: <-- Runtime destination creaated by the booster eg. **LPS_SFSF_rt** -->
@@ -29,7 +29,7 @@
 **Note**: Make a note of the **ID** that is generated automatically on this screen.  This ID is required when we setup the user provisioning job to SAP Build Work Zone in later steps.</br>                         
 ![create_content_provider](7.jpg)
 
-10. Confirm the content provider is successfully created.</br>                                       
+9. Confirm the content provider is successfully created.</br>                                       
 ![create_content_provider](8.jpg)
 
 
