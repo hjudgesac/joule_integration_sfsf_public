@@ -1,4 +1,4 @@
-1. From the Navigation Pane on the left, select **Connectivity >> Destinations**.  Click **Create Destination**.</br>
+1. From the Navigation Pane on the left, select **Connectivity >> Destinations**.  Click **Create Destination**.
 ![create_destination](1.jpg)
 
 2. Specify the information below to create the destination and click **Save**:
