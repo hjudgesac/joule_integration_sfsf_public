@@ -1,5 +1,5 @@
 1. In SFSF instance, navigate to **Admin Center**-> **Manage Permission Groups**
-2. Create a new Group for users who should be having Joule access:
+2. Create a new Group for users who should be having Joule access:                  
 <img src="1Permission_Group.jpg" width="1000px" height="400px">
 4. Enter name for the Group. Make sure you assign users to this group by clicking on Pick a Category: 
 ![Joule_activation_SF](2Group_Name.jpg)
