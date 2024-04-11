@@ -1,5 +1,5 @@
 1. In BTP Cockpit, navigate to your BTP Global Account.
-![run_booster](1.jpg)
+![run_booster](1.jpg width="1000px" height="400px")
 4. From the Navigation Pane on the left, click **Boosters** >> search for **Joule** >> click **Start** on Joule tile.
 ![run_booster](2.png)
 
