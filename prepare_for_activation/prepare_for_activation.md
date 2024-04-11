@@ -16,7 +16,7 @@ Verify that your global account is configured with the following entitlements. F
 
 ## 2. Determine SuccessFactors Data Center
 
-In order to validate whether SuccessFactors instance can be setup for Joule, you will need to find the correct data center for your SAP SuccessFactors instance.  To learn move, visit [2089448 - SuccessFactors Data Center Name, Location, Production Login URL, Production Domain Name, External Mail Server Details and Outbound IP addresses](https://me.sap.com/notes/0002089448)
+In order to validate whether SuccessFactors instance can be setup for Joule, you will need to find the correct data center for your SAP SuccessFactors instance.  To learn more, visit [2089448 - SuccessFactors Data Center Name, Location, Production Login URL, Production Domain Name, External Mail Server Details and Outbound IP addresses](https://me.sap.com/notes/0002089448)
 
 For example, DC68 data center tenants the screenshot shows the corresponding SuccessFactors tenant URLs.<br/>
 ![prepare_activation](1.jpg)
@@ -67,7 +67,7 @@ Knowing which domain to use is relevant when setting up trust between BTP Subacc
 
 ## 9. Validate Global User ID of SuccessFactors User
 
-In order to use Joule, SuccessFactors users must have a Global User ID(GUID) field populated in their SuccessFactors user profile and this GUID should match what's in the SAP Cloud Identity Authentication(IAS) user profile.  This should already be in place if SuccessFactors integration to SAP Cloud Identity Services was done following best pratices and a provisioning job was run to replicate user profiles from SuccessFactors to IAS.  The **Manage Login Accounts** apps can be used to visualize the GUID field in SuccessFactors and compared to the user profile in IAS.  For more information on how to get access to the Manage Login Accounts app, follow [2859043 - Manage Login Accounts tool](https://userapps.support.sap.com/sap/support/knowledge/en/2859043).<br/>
+In order to use Joule, SuccessFactors users must have a Global User ID(GUID) field populated in their SuccessFactors user profile and this GUID should match what's in the SAP Cloud Identity Authentication(IAS) user profile.  This should already be in place if SuccessFactors integration to SAP Cloud Identity Services was done following best pratices and a provisioning job was run to replicate user profiles from SuccessFactors to IAS.  The **Manage Login Accounts** app can be used to visualize the GUID field in SuccessFactors and compared to the user profile in IAS.  For more information on how to get access to the Manage Login Accounts application, follow [2859043 - Manage Login Accounts tool](https://userapps.support.sap.com/sap/support/knowledge/en/2859043).<br/>
 ![prepare_activation](5.jpg)
 
 ## 10. SAP Cloud Identity Provisioning Service running on Neo or SAP Cloud Identity Services Landscape
