@@ -16,7 +16,7 @@ Verify that your global account is configured with the following entitlements. F
 
 ## 2. Determine SuccessFactors Data Center
 
-In order to validate whether SuccessFactors instance can be setup for Joule, you will need to find the correct data center for your SAP SuccessFactors instance.  In order to find this info, visit [2089448 - SuccessFactors Data Center Name, Location, Production Login URL, Production Domain Name, External Mail Server Details and Outbound IP addresses](https://me.sap.com/notes/0002089448)
+In order to validate whether SuccessFactors instance can be setup for Joule, you will need to find the correct data center for your SAP SuccessFactors instance.  To learn move, visit [2089448 - SuccessFactors Data Center Name, Location, Production Login URL, Production Domain Name, External Mail Server Details and Outbound IP addresses](https://me.sap.com/notes/0002089448)
 
 For example, DC68 data center tenants the screenshot shows the corresponding SuccessFactors tenant URLs.<br/>
 ![prepare_activation](1.jpg)
