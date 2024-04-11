@@ -45,7 +45,7 @@ For example, for DC68 production SuccessFactors tenants the corresponding **API 
 
 ## 6. Create API User in SuccessFactors
 
-An API user with **Allow Admin to Access Odata API through Basic Authentication** permission is required.  This user will be used to create the BTP destinations in later steps.  If the user doesn't already exist, follow the [**Create API User in SuccessFactors**](Create_API_User/Create_API_Usr.md) steps in the appendix to create a new user.<br/>
+An API user with **Allow Admin to Access Odata API through Basic Authentication** permission is required in SuccessFactors.  This user will be used to create the BTP destinations in later steps.  If the user doesn't already exist, follow the steps in the next card to create a new API user with the correct permissions.<br/>
 ![prepare_activation](3.jpg)
 
 ## 7. SAP Cloud Identity Services tenant(s) and SuccessFactors Details
