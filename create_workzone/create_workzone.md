@@ -1,4 +1,4 @@
-1. From the Navigation Pane on the left, select **Instances and Subscriptions**.  Click **Create**.</br>
+1. From the Navigation Pane on the left, select **Instances and Subscriptions**.  Click **Create**. </br>
 ![create_wz](1.jpg)
 
 2. Select **SAP Build Work Zone, standard edition** from Service dropdown and **Subscriptions >> foundation** from the Plan dropdown. Click **Create**.</br> 
