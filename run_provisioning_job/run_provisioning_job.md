@@ -1,5 +1,3 @@
-## **Run Provisioning Job in SAP Cloud Identity Provisioning Service**
-
 1. Access the administration console of SAP Cloud Identity Services tenant using one of the URL formats below:
   * https://your-ias-tenant.accounts.ondemand.com/admin
   * https://your-ias-tenant.accounts.cloud.sap/admin              
