@@ -1,4 +1,4 @@
-**NOTE**: To test Employee Central specific use cases you must have Employee Central Quick Links also enabled.  See the next card.
+**NOTE**: To test Employee Central specific use cases you must have Employee Central Quick Links also enabled.
 
 1. Login to SuccessFactors application with user who has been granted JOULE access. 
 2. Click on **JOULE** icon visible on home page.</br>
