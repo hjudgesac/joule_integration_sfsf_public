@@ -1,7 +1,7 @@
 1. In BTP Cockpit, navigate to your BTP Global Account.<br/>
 ![run_booster](1.jpg)
 
-2. From the Navigation Pane on the left, click **Boosters** >> search for **Joule** >> click **Start** on Joule tile.<br/>
+2. From the Navigation Pane on the left, click **Boosters** >> search for **Joule** >> click **Start** on Setting up Joule tile.<br/>
 ![run_booster](2.png)
 
 3. Confirm the pre-requisites check is successful and click **Next**.</br>
