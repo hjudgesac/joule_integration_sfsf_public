@@ -33,8 +33,8 @@ We need to know the **API Server** and **mTLS Certificate Server** URLs for our 
 ![prepare_activation](2.jpg)
 
 For example, for DC68 production SuccessFactors tenants the corresponding **API Server** and **mTLS Certificate Server** URLs for our SuccessFactors tenant are:   
-**API Server**: https://api4.successfactors.com/                         
-**mTLS Certificate Server**: https://api4.cert.successfactors.com
+* **API Server**: https://api4.successfactors.com/                         
+* **mTLS Certificate Server**: https://api4.cert.successfactors.com
 
 ## 5. Permission Required in SuccessFactors
 
