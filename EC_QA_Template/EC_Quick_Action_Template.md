@@ -1,4 +1,4 @@
-**NOTE**: Below steps are valid for Employee Central Customers only.
+**NOTE**: Below steps are valid for Employee Central Customers only.  You may skip this section if not testing the Employee Central specific use cases.
 1. Go to **Admin Center**-> **Manage Employee Central Settings** and switch on **Employee Central Quick Actions**.</br>
 ![EC_QA_Template](1Manage_EC_Settings.png)
 
