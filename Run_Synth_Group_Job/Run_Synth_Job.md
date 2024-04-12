@@ -10,8 +10,10 @@
   * **Recurrence Pattern**: Daily
   * **Start Date**: Use current date and set to execute in few minutes
   * **End Date**: Time frame of your choice
-5. Click **Submit**.</br>
-![Run_Synth_Group_Job](2JobDetail.jpg)
+  ![Run_Synth_Group_Job](2JobDetail.jpg)
 
-**Note**: This job must be successfully executed once before proceeding to the next step.  Set the start time of job to execute so that it executes in the next few minutes.
+5. Click **Submit**.</br>
+
+
+**Note**: This job must be successfully executed once before proceeding to the next step.  Set the start time of job to execute so that it executes in the next few minutes.</br>
 **NOTE**: This job execution would make sure all the users who has been assigned deep link specific access are refreshed and synced correctly during Identity Provisioning sync to SAP WorkZone application.**
