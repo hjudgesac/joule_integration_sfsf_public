@@ -66,7 +66,8 @@ Knowing which domain to use is relevant when setting up trust between BTP Subacc
 
 ## 9. Validate Global User ID of SuccessFactors User
 
-In order to use Joule, SuccessFactors users must have a Global User ID(GUID) field populated in their SuccessFactors user profile and this GUID should match what's in the SAP Cloud Identity Authentication(IAS) user profile.  This should already be in place if SuccessFactors integration to SAP Cloud Identity Services was done following best pratices and a provisioning job was run to replicate user profiles from SuccessFactors to IAS.  The **Manage Login Accounts** app can be used to visualize the GUID field in SuccessFactors and compared to the user profile in IAS.  For more information on how to get access to the Manage Login Accounts application, follow [2859043 - Manage Login Accounts tool](https://userapps.support.sap.com/sap/support/knowledge/en/2859043).<br/>
+In order to use Joule, SuccessFactors users must have a Global User ID(GUID) field populated in their SuccessFactors user profile and this GUID should match what's in the SAP Cloud Identity Authentication(IAS) user profile.  This should already be in place if SuccessFactors integration to SAP Cloud Identity Services was done following best pratices and a provisioning job was run to replicate user profiles from SuccessFactors to IAS. 
+ If the user replication job was not run in the past or if there were errors for certain users during the job execution, those users will not have the GUID field populated in SuccessFactors.  The **Manage Login Accounts** app can be used to visualize the GUID field in SuccessFactors and compare it to the user profile in IAS.  For more information on how to get access to the Manage Login Accounts application, follow [2859043 - Manage Login Accounts tool](https://userapps.support.sap.com/sap/support/knowledge/en/2859043).<br/>
 ![prepare_activation](5.jpg)
 
 ## 10. SAP Cloud Identity Provisioning Service running on Neo or SAP Cloud Identity Services Landscape
@@ -82,6 +83,3 @@ Activation of Joule requires configuration in mulitple systems.  It's important 
 * SuccessFactors Admin
 * SAP BTP Global Account Admin
 * SAP Cloud Identity Services Admin
-
-
-
