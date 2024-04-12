@@ -1,5 +1,4 @@
 **Note**: In order to run through these steps you will need to ensure **Launchpad_Admin** role is assigned to the user accessing Work Zone.  Note that in earlier steps we only assigned this role to user from Default Identity Provider but we also disabled this IDP for authentication.  You may now need to assign this roles to user coming from your IAS tenant or temporarily enable the **Available for User Logon** option for **Default Identity Provider**.
-
 1. Access [BTP Cockpit URL](https://cockpit.btp.cloud.sap).
 2. Select the BTP Global Account that has the Joule entitlements and click **Continue**.
 3. Select the BTP Subaccount where Joule was setup.                        
