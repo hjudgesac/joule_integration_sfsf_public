@@ -13,11 +13,13 @@
 ![Joule_activation_SF](5Role_name.jpg)
 9. Under **General User Permission >> Access to Joule** permission and click **Done**.</br>
 ![Joule_activation_SF](1Joule_Access.jpg)
-11. Under **Grand this role too..** click **Add** and select the permission group created earlier.</br> 
+11. Under **Grand this role too..** Click **Add** and select the permission group created earlier.</br> 
 ![Joule_activation_SF](6Group_Add.jpg) 
 ![Joule_activation_SF](7Select_Group.jpg)
+12. Click **Done**.</br>
 ![Joule_activation_SF](8group_added.jpg)
-13. Save your changes.
+13. Click **Done** again on the next screen.
+14. Click **Save Changes**.</br>
 ![Joule_activation_SF](9Save_Changes.jpg)
 
 **NOTE**: Above steps will allow authorized users to access the Joule functionality and based on user's data access for supported use case, information will be available. Also, this permission is only visible after booster execution in BTP subaccount.
