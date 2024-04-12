@@ -1,4 +1,4 @@
-**Follow below steps to create a new SuccessFactors API user which you can use for JOULE configuration**
+**Note**: Follow these steps only if you don't have an existing API user in SuccessFactors with the required permissions.
 1. Login to SuccessFactors application.
 2. Go to **Admin Center**-> **Import Employee Data** and Generate the template for Basic Import.</br>
 ![Create_API_User](1download_template.jpg)
