@@ -7,20 +7,19 @@
 
 2. Authenticate using an administrator user.                 
 3. From the menu, access **Identity Provisioning >> Source Systems**.
-4. Under **Source Systems** select the source system we created earlier for Joule integraton and click **Job**.
+4. Under **Source Systems** select the source system we created earlier for Joule integraton and click **Job**.</br>
 ![run_ips_job](1.jpg)
 
-5. Click **Run Now** to run the **Read job**.             
+5. Click **Run Now** to run the **Read job**.</br>             
 ![run_ips_job](2.jpg)
 
-6. From the menu, access **Identity Provisioning >> Provisioning Logs**.              
+6. From the menu, access **Identity Provisioning >> Provisioning Logs**.</br>            
 ![run_ips_job](3.jpg)
 
 7. Confirm the job executes successfully.                   
-**Note**: It may take few minutes for the job to appear in this interface.  The job execution time will also vary depending upon number of users being read.  It may take up to 15 minutes to provision few users and groups that meet the filter criteria specified in the job properties.  For full user synch it can take several hours. 
+**Note**: It may take few minutes for the job to appear in this interface.  The job execution time will also vary depending upon number of users being read.  It may take up to 15 minutes to provision few users and groups that meet the filter criteria specified in the job properties.  For full user synch it can take several hours.</br>
 ![run_ips_jobr](4.jpg)
 
-8. Click the job to view the **Job Execution Details** and confirm users and groups that meet the filter criteria are created in Work Zone application.  
+8. Click the job to view the **Job Execution Details** and confirm users and groups that meet the filter criteria are created in Work Zone application.</br>  
 ![run_ips_job](5.jpg)
 
-9. Optionally, validate that users and their group assignments are successfully provisioned in Work Zone.  See [Appendix: Validate User in Work Zone](/validate_usersinWZ/validate_users_workzone.md)
