@@ -14,7 +14,7 @@
 ![run_booster](5.png)
 
 6. Specify the SuccesFactors **Tenant Domain**, **Company Code** and click **Validate**.                   
-**Note**: Tenant domain should be entered without trailing forward slash at the end of the URL.  Customers already migrated to common super domain(CSD) should use the pre-CSD domain of their SucessFactors tenant. See preparation steps for more information.</br>             
+**Note**: Tenant domain should be entered without trailing forward slash at the end of the URL.  Customers already migrated to common super domain(CSD) should use the pre-CSD domain of their SuccessFactors tenant. See preparation steps for more information.</br>             
 ![run_booster](6.png)     
 
 7. Confirm the validation is successful and click **Next**.
