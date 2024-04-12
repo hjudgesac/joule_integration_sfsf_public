@@ -30,5 +30,7 @@
 ![create_destination](4.jpg)
 
 5. Click **New Property** and type **sap-start**.  Set the value of of the propery to **true** and **Save** the destination.</br>
-![create_destination](5.jpg)             
+![create_destination](5.jpg)</br>
+**Important**: You may also need to the update the URL parameter in this destination in certain scnearios.  For customers whose SuccessFactors tenants are migrated to **Common Super Domain(CSD)** or access SuccessFactors through a **reverse proxy** need to update the URL parameter to match to their CSD or reverse proxy URL.  
 **Note**: **sap-start** must be all in lower case.
+
