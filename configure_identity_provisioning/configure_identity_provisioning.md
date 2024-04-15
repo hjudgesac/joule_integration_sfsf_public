@@ -1,20 +1,11 @@
 ## **Configure SuccesssFactors as Source System in Identity Provisioning**
 
 
-1. Download the following 2 files into your download folder:
-  * [**SuccessFactors Source**](/configure_identity_provisioning/files/SuccessFactors-SF-Company-ID-Joule.json ':ignore :target=_self')
-  * [**WorkZone Target**](/configure_identity_provisioning/files/WorkZone_Target_ForJoule.json)
-  * [**Test**](configure_identity_provisioning/files/WorkZone_Target_ForJoule.json)
-  * [**Test2**](https://github.com/hjudgesac/joule_integration_sfsf_public/blob/883580686f073d870fd0917eeec12f5206b4eaa6/configure_identity_provisioning/files/WorkZone_Target_ForJoule.json)
-  * [**Test3**](https://raw.github.com/hjudgesac/joule_integration_sfsf_public/blob/883580686f073d870fd0917eeec12f5206b4eaa6/configure_identity_provisioning/files/WorkZone_Target_ForJoule.json)
-  * [**Test4**](https://github.com/hjudgesac/joule_integration_sfsf_public/raw/blob/883580686f073d870fd0917eeec12f5206b4eaa6/configure_identity_provisioning/files/WorkZone_Target_ForJoule.json)
-  * [**Test5**](https://raw.githubusercontent.com/hjudgesac/joule_integration_sfsf_public/883580686f073d870fd0917eeec12f5206b4eaa6/configure_identity_provisioning/files/WorkZone_Target_ForJoule.json)
-  * [**Test6**](https://raw.githubusercontent.com/hjudgesac/joule_integration_sfsf_public/883580686f073d870fd0917eeec12f5206b4eaa6/configure_identity_provisioning/files/WorkZone_Target_ForJoule.json ':ignore :target=_self')
+1. Download the [**zip file**](https://github.com/hjudgesac/joule_integration_sfsf_public/raw/main/configure_identity_provisioning/files/IdentityProvisioningFiles.zip) that contains the pre-defined source and target systems required for this configuration
 
-  * [**Test7**](https://github.com/hjudgesac/joule_integration_sfsf_public/raw/883580686f073d870fd0917eeec12f5206b4eaa6/configure_identity_provisioning/files/WorkZone_Target_ForJoule.json)
-  *  [**Test8**](https://github.com/hjudgesac/joule_integration_sfsf_public/raw/main/configure_identity_provisioning/files/IdentityProvisioningFiles.zip)
-
-[**Test9**](https://github.com/hjudgesac/joule_integration_sfsf_public/blob/raw/main/configure_identity_provisioning/files/SuccessFactors-SF-Company-ID-Joule.json)
+2. Extract the zip file into a folder of your choice.  Confirm that the following 2 files are visible in the extracted folder:
+ * **SuccessFactors-SF-Company-ID-Joule.json**
+ * **WorkZone_Target_ForJoule.json**
 
 2. Access the administration console of SAP Cloud Identity Services tenant using one of the URL formats below:
   * https://your-ias-tenant.accounts.ondemand.com/admin
