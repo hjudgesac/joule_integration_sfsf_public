@@ -6,7 +6,7 @@
 
 2. Extract the zip file into a folder of your choice.  Confirm that the following 2 files are visible in the extracted folder:
  * **SuccessFactors-SF-Company-ID-Joule.json**
- * **WorkZone_Target_ForJoule.json**
+ * **WorkZone_Target_ForJoule.json**</br>
    ![configure_ips](0-2.jpg)
    
 3. Access the administration console of SAP Cloud Identity Services tenant using one of the URL formats below:
