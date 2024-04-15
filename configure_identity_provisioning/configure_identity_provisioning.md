@@ -14,6 +14,8 @@
   * [**Test7**](https://github.com/hjudgesac/joule_integration_sfsf_public/raw/883580686f073d870fd0917eeec12f5206b4eaa6/configure_identity_provisioning/files/WorkZone_Target_ForJoule.json)
   *  [**Test8**](https://github.com/hjudgesac/joule_integration_sfsf_public/raw/main/configure_identity_provisioning/files/IdentityProvisioningFiles.zip)
 
+[**Test9**](https://github.com/hjudgesac/joule_integration_sfsf_public/blob/raw/main/configure_identity_provisioning/files/SuccessFactors-SF-Company-ID-Joule.json)
+
 2. Access the administration console of SAP Cloud Identity Services tenant using one of the URL formats below:
   * https://your-ias-tenant.accounts.ondemand.com/admin
   * https://your-ias-tenant.accounts.cloud.sap/admin              
