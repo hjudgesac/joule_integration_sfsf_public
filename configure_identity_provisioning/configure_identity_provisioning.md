@@ -4,6 +4,8 @@
 1. Download the following 2 files into your download folder:
   * [**SuccessFactors Source**](/configure_identity_provisioning/files/SuccessFactors-SF-Company-ID-Joule.json ':ignore :target=_self')
   * [**WorkZone Target**](/configure_identity_provisioning/files/WorkZone_Target_ForJoule.json)
+  * [**Test**](configure_identity_provisioning/files/WorkZone_Target_ForJoule.json)
+  * [**Test2**](https://github.com/hjudgesac/joule_integration_sfsf_public/blob/883580686f073d870fd0917eeec12f5206b4eaa6/configure_identity_provisioning/files/WorkZone_Target_ForJoule.json)
  
 2. Access the administration console of SAP Cloud Identity Services tenant using one of the URL formats below:
   * https://your-ias-tenant.accounts.ondemand.com/admin
