@@ -1,44 +1,45 @@
 ## **Configure SuccesssFactors as Source System in Identity Provisioning**
 
 
-1. Download the [**zip file**](https://github.com/hjudgesac/joule_integration_sfsf_public/raw/main/configure_identity_provisioning/files/IdentityProvisioningFiles.zip) that contains the pre-defined source and target systems required for this configuration.
+1. Download the [**IdentityProvisioningFiles.zip**](https://github.com/hjudgesac/joule_integration_sfsf_public/raw/main/configure_identity_provisioning/files/IdentityProvisioningFiles.zip) that contains the pre-defined source and target systems required to setup this configuration.
+**Note**: A file should be automatically downloaded into your downloads folder.
 
 2. Extract the zip file into a folder of your choice.  Confirm that the following 2 files are visible in the extracted folder:
  * **SuccessFactors-SF-Company-ID-Joule.json**
  * **WorkZone_Target_ForJoule.json**
    
 ![configure_ips](0-2.jpg)
-2. Access the administration console of SAP Cloud Identity Services tenant using one of the URL formats below:
+3. Access the administration console of SAP Cloud Identity Services tenant using one of the URL formats below:
   * https://your-ias-tenant.accounts.ondemand.com/admin
   * https://your-ias-tenant.accounts.cloud.sap/admin              
   **Note**: Substitute your-ias-tenant with your actual tenant name.
 
-3. Authenticate using an administrator user.</br>                
+4. Authenticate using an administrator user.</br>                
 ![configure_ips](0-1.jpg)
 
-4. From the menu, access **Identity Provisioning >> Source Systems**.</br>
+5. From the menu, access **Identity Provisioning >> Source Systems**.</br>
 ![configure_ips](2.jpg)
 
-5. Under **Source Systems** click **+Add** icon.</br>
+6. Under **Source Systems** click **+Add** icon.</br>
 ![configure_ips](3.jpg)
 
-6. Click **Browse** to import a pre-defined source system configuration.</br>
+7. Click **Browse** to import a pre-defined source system configuration.</br>
 ![configure_ips](4.jpg)
 
-7. Select the **SuccessFactors-SF-Company-ID-Joule.json** file downloaded earlier and click **Open**.
+8. Select the **SuccessFactors-SF-Company-ID-Joule.json** file downloaded earlier and click **Open**.
 
-8. Update the **System Name** field and put in your SuccessFactors system company ID and click **Save**.</br>
+9. Update the **System Name** field and put in your SuccessFactors system company ID and click **Save**.</br>
 ![configure_ips](5.jpg)
 
-9. Click on **Properties** and replace the placeholders values with appropriate values for your setup using the information below:
+10. Click on **Properties** and replace the placeholders values with appropriate values for your setup using the information below:
  * **sf.company.id** : Replace with placeholder value with your actual SuccessFactors CompanyID.  For eg. DemoCompany in my screenshot
  * **URL** : Specify the API URL corresponding to your SuccessFactors instance.  For eg. https://api8.cert.successfactors.com in my setup.  Refer to the preparation steps if unsure of what URL to use.
  * **sf.user.filter** : Update the **userName** filter to include your own SuccessFactors users.  Use **or** to add additional users who should be replicated into Work Zone when this job is run later.             
 **Note**: The reason for using a filter for specific users is so that we don't replicate the full SuccessFactors user base into Work Zone.  This setup will make it easier to test with few users first before rolling out to larger number of users.  The userName part of the filter can be removed later if full user synch is required.</br>
 ![configure_ips](6.jpg)
 
-10. Click **Save**.
-11. Click on **Outbound  Certificates** icon and click **Download Certificate** icon.  This will download the certificate into your downloads folder.
+11. Click **Save**.
+12. Click on **Outbound  Certificates** icon and click **Download Certificate** icon.  This will download the certificate into your downloads folder.
 **Note**: This certificate will need to be imported into SAP SuccessFactors system in later steps.</br>
 ![configure_ips](6-1.jpg)
 
