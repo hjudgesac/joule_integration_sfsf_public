@@ -1,4 +1,4 @@
-**NOTE**: To test Employee Central specific use cases you must have Employee Central Quick Links also enabled. See the full list of supported use cases [here](https://help.sap.com/docs/joule/capabilities-guide/transactional-use-cases).
+**NOTE**: To test Employee Central specific use cases you must have Employee Central Quick Links also enabled. See the pre-requisites section for more information on how to enable Employe Central Quick Links.  The full list of supported use cases for Joule are accessible from [here](https://help.sap.com/docs/joule/capabilities-guide/transactional-use-cases).
 
 1. Login to SuccessFactors application with user who has been granted JOULE access. 
 2. Click on **JOULE** icon visible on home page.</br>
