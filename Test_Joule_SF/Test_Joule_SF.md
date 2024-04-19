@@ -15,3 +15,6 @@
 
 6. Click on this Navigation link to view details of your manager profile.</br>  
 ![Test_Joule_SF](6Nav.jpg)
+
+7. Confirm that you can successfully navigate to page where your managers profile is visilbe.
+8. Test additional use cases as described in the link above.
