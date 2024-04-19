@@ -12,9 +12,9 @@
 ## Add Joule specific permission for users in SAP SuccessFactors ##
 ## Run Refresh Synthetic Group Data Job in SuccessFactors ##
 ## Run provisioning job to replicate users and groups from SuccessFactors to SAP Build Work Zone ##
-## Optional - Validate User Provisioning in SAP Build Work Zone, standard edition ##
+## Validate User Provisioning in SAP Build Work Zone, standard edition ##
+## Disable Default Identity Provider
 ## Test Joule in SuccessFactors
-
 ## Appendix ##
   **Activate Employee Central Quick Links**                 
   **Create API User in SuccessFactors**
