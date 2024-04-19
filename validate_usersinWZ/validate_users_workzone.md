@@ -1,4 +1,4 @@
-**Note**: In order to run through these steps you will need to ensure **Launchpad_Admin** role is assigned to the user accessing Work Zone.
+**Note**: In order to run through these steps, you will need to ensure **Launchpad_Admin** role is assigned to the user accessing Work Zone.
 
 1. Access [BTP Cockpit URL](https://cockpit.btp.cloud.sap).
 2. Select the BTP Global Account that has the Joule entitlements and click **Continue**.
