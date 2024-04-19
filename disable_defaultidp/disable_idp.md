@@ -4,4 +4,4 @@
 
 3. Uncheck **Available for User Logon** and click **Save**.</br>        
 ![run_booster](10.jpg)         
-**Note**: This change is made so that end user doesn't get prompted to pick an Identity Provider when launching Joule in SuccessFactors.
+**Note**: This change is made so that the end user doesn't get prompted to pick an Identity Provider when launching Joule in SuccessFactors.
