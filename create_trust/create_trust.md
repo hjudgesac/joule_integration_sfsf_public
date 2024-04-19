@@ -26,7 +26,7 @@
 1. Access the administration console of SAP Cloud Identity Services tenant using one of the URL formats below:
   * https://your-ias-tenant.accounts.ondemand.com/admin
   * https://your-ias-tenant.accounts.cloud.sap/admin              
-**Note**: Substitute your-ias-tenant with your actual tenant name.
+**Note**: Substitute your-ias-tenant with your actual tenant's name.
 
 2. Authenticate using an administrator user.</br>              
 ![create_trust](7.jpg)
