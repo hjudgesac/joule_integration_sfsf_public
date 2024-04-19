@@ -7,10 +7,10 @@
 ![EC_QA_Template](2MBC_Permission.png)
 
 5. Save your changes.
-7. Accesss **Admin Center** >> **Manage Data** and confirm **Employee Central Quick Action Template** objects are visible in the dropdown.</br>
+7. Access **Admin Center** >> **Manage Data** and confirm **Employee Central Quick Action Template** objects are visible in the dropdown.</br>
 ![EC_QA_Template](6MD_dropdown.jpg)
 
-9. If objects are not visible then you can create the template objects by clicking on Create New and select Employee Central Quick Action Templates.</br>
+9. If objects are not visible, then you can create the template objects by clicking on Create New and select Employee Central Quick Action Templates.</br>
 ![EC_QA_Template](4Create_EC_QA.png)
 
 **Templates assignments to User**
