@@ -1,4 +1,4 @@
-## **Configure SuccesssFactors as Source System in Identity Provisioning**
+## **Configure SuccessFactors as Source System in Identity Provisioning**
 
 
 1. Download [**IdentityProvisioningFiles.zip**](https://github.com/hjudgesac/joule_integration_sfsf_public/raw/main/configure_identity_provisioning/files/IdentityProvisioningFiles.zip) that contains the pre-defined source and target systems required to setup this configuration.</br>
@@ -12,7 +12,7 @@
 3. Access the administration console of SAP Cloud Identity Services tenant using one of the URL formats below:
   * https://your-ias-tenant.accounts.ondemand.com/admin
   * https://your-ias-tenant.accounts.cloud.sap/admin              
-  **Note**: Substitute your-ias-tenant with your actual tenant name.
+  **Note**: Substitute your-ias-tenant with your actual tenant's name.
 
 4. Authenticate using an administrator user.</br>                
 ![configure_ips](0-1.jpg)
@@ -31,9 +31,9 @@
 9. Update the **System Name** field and put in your SuccessFactors system company ID and click **Save**.</br>
 ![configure_ips](5.jpg)
 
-10. Click on **Properties** and replace the placeholders values with appropriate values for your setup using the information below:
- * **sf.company.id** : Replace with placeholder value with your actual SuccessFactors CompanyID.  For eg. DemoCompany in my screenshot
- * **URL** : Specify the API URL corresponding to your SuccessFactors instance.  For eg. https://api8.cert.successfactors.com in my setup.  Refer to the preparation steps if unsure of what URL to use.
+10. Click on **Properties** and replace the placeholder values with appropriate values for your setup using the information below:
+ * **sf.company.id** : Replace with placeholder value with your actual SuccessFactors CompanyID.  For e.g. DemoCompany in my screenshot.
+ * **URL** : Specify the API URL corresponding to your SuccessFactors instance.  For e.g. https://api8.cert.successfactors.com in my setup.  Refer to the preparation steps if unsure of what URL to use.
  * **sf.user.filter** : Update the **userName** filter to include your own SuccessFactors users.  Use **or** to add additional users who should be replicated into Work Zone when this job is run later.             
 **Note**: The reason for using a filter for specific users is so that we don't replicate the full SuccessFactors user base into Work Zone.  This setup will make it easier to test with few users first before rolling out to larger number of users.  The userName part of the filter can be removed later if full user synch is required.</br>
 ![configure_ips](6.jpg)
@@ -56,7 +56,7 @@
 4. Select the **WorkZone_Target_ForJoule.json** file downloaded earlier and click **Open**.</br>      
 ![configure_ips](9.jpg)
 
-5. From the **Source System** dropdown make sure to select the source system created earlier.  For eg. **SuccessFactors - DemoCompany-Joule** in my screenshot.</br>  
+5. From the **Source System** dropdown make sure to select the source system created earlier.  For e.g. **SuccessFactors - DemoCompany-Joule** in my screenshot.</br>  
 ![configure_ips](10.jpg)
 
 6. Switch to the **Properties** tab and update the following placeholders with the appropriate values for your system:
@@ -67,7 +67,7 @@
  * **Password**: <--**clientsecret** from key file downloaded earlier--></br>
  ![configure_ips](11.jpg)
  
- 7. Click **Save**
+ 7. Click **Save**.
  
 ## **Import the certificate into SAP SuccessFactors**
 
