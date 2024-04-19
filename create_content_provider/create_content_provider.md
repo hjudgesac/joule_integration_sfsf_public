@@ -1,5 +1,3 @@
-## **Create Content Provider in Work Zone**
-
 1. From the Navigation Pane on the left, select **Security >> Users** and click the arrow to open user details.</br>
 ![create_content_provider](1.jpg)
 
