@@ -7,12 +7,11 @@
  * **SuccessFactors-SF-Company-ID-Joule.json**
  * **WorkZone_Target_ForJoule.json**</br>
    ![configure_ips](0-2.jpg)
-   
+
 3. Access the administration console of SAP Cloud Identity Services tenant using one of the URL formats below:
   * https://your-ias-tenant.accounts.ondemand.com/admin
   * https://your-ias-tenant.accounts.cloud.sap/admin              
   **Note**: Substitute your-ias-tenant with your actual tenant's name.
-
 4. Authenticate using an administrator user.</br>                
 ![configure_ips](0-1.jpg)
 
