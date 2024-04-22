@@ -36,7 +36,7 @@
 ![configure_ips](6.jpg)
 
 11. Click **Save**.
-12. Click on **Outbound  Certificates** icon and click **Download Certificate** icon.  This will download the certificate into your downloads folder.
+12. 12. Click on **Outbound  Certificates** icon and click **Download Certificate** icon.  This will download the certificate into your downloads folder.
 **Note**: This certificate will need to be imported into SAP SuccessFactors system in later steps.</br>
 ![configure_ips](6-1.jpg)
 
