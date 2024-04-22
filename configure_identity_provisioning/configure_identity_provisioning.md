@@ -2,11 +2,10 @@
 
 1. Download [**IdentityProvisioningFiles.zip**](https://github.com/hjudgesac/joule_integration_sfsf_public/raw/main/configure_identity_provisioning/files/IdentityProvisioningFiles.zip) that contains the pre-defined source and target systems required to setup this configuration.</br>
 **Note**: A file should be automatically downloaded into your downloads folder.
-
 2. Extract the zip file into a folder of your choice.  Confirm that the following 2 files are visible in the extracted folder:
- * **SuccessFactors-SF-Company-ID-Joule.json**
- * **WorkZone_Target_ForJoule.json**</br>
-   ![configure_ips](0-2.jpg)
+   * **SuccessFactors-SF-Company-ID-Joule.json**
+   * **WorkZone_Target_ForJoule.json**</br>
+![configure_ips](0-2.jpg)
 
 3. Access the administration console of SAP Cloud Identity Services tenant using one of the URL formats below:
   * https://your-ias-tenant.accounts.ondemand.com/admin
