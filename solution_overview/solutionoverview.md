@@ -8,7 +8,7 @@ Joule will initially be available in English for US and European data centers an
 
 
 The setup process for Joule with SuccessFactors requires integration across multiple SAP components as depicted in the picture below.<br/>
-![run_booster](1.jpg)
+![run_booster](SolutionDiagram.jpg)
 
 This purpose of this guide is to provide step by step instructions on how to set up Joule with SAP SuccessFactors.
 
