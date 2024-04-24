@@ -15,17 +15,18 @@
 ![configure_ips](0-1.jpg)
 
 5. From the menu, access **Identity Provisioning >> Source Systems**.
-![configure_ips](2.jpg)
 
-6. Under **Source Systems** click **+Add** icon.</br>
+  ![configure_ips](2.jpg)
+
+7. Under **Source Systems** click **+Add** icon.</br>
 ![configure_ips](3.jpg)
 
-7. Click **Browse** to import a pre-defined source system configuration.
+8. Click **Browse** to import a pre-defined source system configuration.
 ![configure_ips](4.jpg)
 
-8. Select the **SuccessFactors-SF-Company-ID-Joule.json** file downloaded earlier and click **Open**.
+9. Select the **SuccessFactors-SF-Company-ID-Joule.json** file downloaded earlier and click **Open**.
 
-9. Update the **System Name** field and put in your SuccessFactors system company ID and click **Save**.
+10. Update the **System Name** field and put in your SuccessFactors system company ID and click **Save**.
    
   ![configure_ips](5.jpg)
 
