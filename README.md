@@ -5,6 +5,7 @@
 ## Create BTP Subaccount for Joule ##
 ## Create BTP Subaccount trust with SAP Cloud Identity Services ##
 ## Run Booster for Joule ##
+## Update Configuration in SAP Cloud Identity Authentication Service ##
 ## Create SAP Build Work Zone instance ##
 ## Create destinations in SAP BTP ##
 ## Create Content Provider in SAP Build Work Zone ##
