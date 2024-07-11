@@ -36,12 +36,17 @@ For example, for DC68 production SuccessFactors tenants the corresponding **API 
 * **API Server**: https://api4.successfactors.com/                         
 * **mTLS Certificate Server**: https://api4.cert.successfactors.com
 
-## 5. Permission Required in SuccessFactors
+## 5. Permissions Required in SuccessFactors
 
 * Permissions to schedule jobs in SuccessFactors.  See [Scheduled Job Manager](https://userapps.support.sap.com/sap/support/knowledge/en/2906009)
 * Permissions to [**Security Center >> X.509 Certificate Mapping**](https://userapps.support.sap.com/sap/support/knowledge/en/3300596).
 * Manage Permission Roles and Manage Permission Groups access.  See [Granting Administrators Access to RBP](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/cdd844b5f0744d238284e937deb73f39/0aa4fbb7d9914a448d70238b321ab101.html).
-
+* Permissions to access **Extension Center** in SAP SuccessFactors Admin Center that include:
+  * **Admin Access to MDF OData API** permission from the **Metadata Framework** category.
+    ![prepare_activation](6.jpg)
+  * **Create Integration with SAP BTP** permission from the **Manage Extensions** on SAP BTP category.
+    ![prepare_activation](7.jpg)
+  
 ## 6. Create API User in SuccessFactors
 
 An API user with **Allow Admin to Access OData API through Basic Authentication** permission is required in SuccessFactors.  This user will be used to create the BTP destinations in later steps.  If the user doesn't already exist, follow the steps in the **Create API User in SuccessFactors** card to create a new API user with the correct permissions.<br/>
