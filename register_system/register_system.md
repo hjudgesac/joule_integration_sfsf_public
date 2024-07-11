@@ -1,6 +1,3 @@
-## **Create Subaccount and Cloud Foundry Space**
-
-
 1. Access [BTP Cockpit URL](https://cockpit.btp.cloud.sap).
 2. Select the BTP Global Account that has the Joule entitlements and click **Continue**.</br>                       
 ![run_booster](1.png)
