@@ -17,16 +17,15 @@
 
 7. Copy the **Registration Token** value and share it with your SuccessFactors Admin.  Close the token registration screen.</br>                                                         
 ![register_system](5.jpg)
-**Note**: The **Region** must be from one of the supported data centers for Joule and correspond to your SuccessFactors tenant.  See [Data Center Mapping between SAP SuccessFactors and Joule](https://help.sap.com/docs/joule/serviceguide/data-center-mapping-between-sap-successfactors-and-joule)
 
 8. Log into SAP SuccessFactors as an admin user and search for **Extension Center**.</br>                                                                                                                   
 ![register_system](6.jpg)
 **Note**: If you don't have access to Extension Center, follow the steps in the preparation section.
 
-9. Paste the token received from the BTP admin into the ***Integration Token** text box and click **Add**.</br>                                      
+9. Paste the token received from the BTP admin into the **Integration Token** text box and click **Add**.</br>                                      
 ![register_system](7.jpg)
 
-10. Confirm the integration status shows **Integrated**.</br>                                                                                                                   
+10. Confirm the integration status shows **Integrated** in SuccessFactors system.</br>                                                                                                                   
 ![register_system](8.jpg)
 
 11. Confirm the status is updated to **Registered** in the BTP Cockpit.</br>                                                                                                                   
