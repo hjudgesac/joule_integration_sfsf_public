@@ -14,6 +14,12 @@ Verify that your global account is configured with the following entitlements. F
 | ----------- | ----------- | ----------- | -------------- | --------------- |
 | SAP Build Work Zone, standard edition      | build-workzone-standard      | foundation or standard      |     1            |          limited       |
 
+If the entitlements are not visible it could be due to one these reasons:
+  1) You don't have licenses for Joule.
+  2) Joule entilements were added to different BTP Global Account to which you don't have Global Account Admin access.
+  3) The start date for the Joule contract is at future date hence the entilements won't be visible in BTP until that date.
+In the scenarios above, please work with Account Executive, BTP Customer Success Partner or SuccessFactors Customer Success Partner to resolve the entitlements issue prior to proceeding further with this mission.
+
 ## 2. Determine SuccessFactors Data Center
 
 To validate whether SuccessFactors instance can be setup for Joule, you will need to find the correct data center for your SAP SuccessFactors instance.  To learn more, visit [2089448 - SuccessFactors Data Center Name, Location, Production Login URL, Production Domain Name, External Mail Server Details and Outbound IP addresses](https://me.sap.com/notes/0002089448)
