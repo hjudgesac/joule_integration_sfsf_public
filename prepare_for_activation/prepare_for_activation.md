@@ -60,7 +60,7 @@ An API user with **Allow Admin to Access OData API through Basic Authentication*
 
 ## 7. SAP Cloud Identity Services tenant(s) and SuccessFactors Details
 
-To setup Joule, the SuccessFactors tenant should already be integrated to use SAP Cloud Identity Service.  To find out which IAS/IPS instance the SuccessFactors tenant is using access **Admin Center >> Monitoring Tool for Identity Authentication Service/Identity Provisioning Service Upgrade**.  Make a note of the **Identity Authentication Service Tenant URL** and **Identity Provisioning Service Tenant URL**.  When setting up the BTP subaccount trust with IAS in later steps, it will be important to select the same IAS tenant that is used by SuccessFactors.<br/>
+To setup Joule, the SuccessFactors tenant should already be integrated to use SAP Cloud Identity Service.  To find out which IAS/IPS instance the SuccessFactors tenant is using access **Admin Center >> Monitoring Tool for Identity Authentication Service/Identity Provisioning Service Upgrade**.  Make a note of the **Identity Authentication Service Tenant URL** and **Identity Provisioning Service Tenant URL**.  When setting up the BTP subaccount trust with IAS in later steps, it will be important to select the same IAS tenant that is used by SuccessFactors.  In addition, the date of when the activatation was done will be important to pick the right domain to use when setting up BTP Subaccount trust to SAP Cloud Identity Authentication Service (IAS). <br/>
 ![prepare_activation](4.jpg)
 
 ## 8. Domain used for SuccessFactors trust with SAP Cloud Identity Services
@@ -80,17 +80,22 @@ Knowing which domain to use is relevant when setting up trust between BTP Subacc
 In order to use Joule, SuccessFactors users must have a Global User ID(GUID) field populated in their SuccessFactors user profile and this GUID should match what's in the SAP Cloud Identity Authentication (IAS) user profile.  This should already be in place if SuccessFactors integration to SAP Cloud Identity Services was done following best practices and a provisioning job was run to replicate user profiles from SuccessFactors to IAS. If the user replication job was not run in the past or if there were errors for certain users during the job execution, those users will not have the GUID field populated in SuccessFactors.  The **Manage Login Accounts** app can be used to visualize the GUID field in SuccessFactors and compare it to the user profile in IAS.  For more information on how to get access to the Manage Login Accounts application, follow [2859043 - Manage Login Accounts tool](https://userapps.support.sap.com/sap/support/knowledge/en/2859043).<br/>
 ![prepare_activation](5.jpg)
 
-## 10. Activate Employee Central Quick Links
+## 10. Validate SuccessFactors IP Restriction Management
+
+Some of our SuccessFactors customers have IP restrictions in place to prevent user access to SuccessFactors from outside of that IP range.  For more information on IP Restriction Management in SuccessFactors follow this SAP Note: [2089414 - System: How to restrict access to SuccessFactors by IP address - IP Restriction Management](https://userapps.support.sap.com/sap/support/knowledge/en/2089414).  If such IP restrictions are in place then the IPs of BTP data center where Joule will be setup must also be added to the list of whitelisted IPs. To see the list of BTP datacenters and the corresponding IPs, follow [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/regions-and-api-endpoints-available-for-cloud-foundry-environment)
+**WARNING**: DO NOT add the BTP IPs unless you are already restricting user access to SuccessFactors based in IPs.  Please read the note 2089414 in detail before making any changes in the **IP Restriction Management** app in SuccessFactors.
+
+## 11. Activate Employee Central Quick Links
 
 Joule supports various use cases that are specific to Employee Central module in SuccessFactors.  To enable Employee Central specific use cases, Employee Central Quick Links should already be enabled in SAP SuccessFactors.  If Employee Central Quick Links are not already enabled, follow the steps in **Activate Employee Central Quick Links** card.
 
-## 11. SAP Cloud Identity Provisioning Service running on Neo or SAP Cloud Identity Services Landscape
+## 12. SAP Cloud Identity Provisioning Service running on Neo or SAP Cloud Identity Services Landscape
 
 As part of the activation steps we need to leverage SAP Cloud Identity Provisioning Service to read users from SuccessFactors and provision them to SAP Build Work Zone.  This requires that SAP Build Work Zone, standard edition is available as a connector under target systems in SAP Cloud Identity Provisioning Service (IPS).  This connector may not be available on IPS tenants running on NEO landscapes.  It's recommended customers migrate IPS from NEO to IPS running on SAP Cloud Identity Provisioning Service (SCI) landscape.  In most cases this migration can be done in a matter of minutes.  For more information on how to perform this migration, refer to the following links:
 * [Blog: Go for your quick win! Migrate Identity Provisioning tenants to SAP Cloud Identity infrastructure](https://community.sap.com/t5/technology-blogs-by-sap/go-for-your-quick-win-migrate-identity-provisioning-tenants-to-sap-cloud/ba-p/13536739)
 * [Help Documenation: Migrate Identity Provisioning Bundle Tenant](https://help.sap.com/docs/identity-provisioning/identity-provisioning/migrate-identity-provisioning-bundle-tenant)
 
-## 12. User Personas Required for Joule activation
+## 13. User Personas Required for Joule activation
 
 Activation of Joule requires configuration in multiple systems.  It's important to have the right stakeholders involved when setting up the configuration.  In order to setup Joule the following user personas are required:
 * SuccessFactors Admin
