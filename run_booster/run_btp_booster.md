@@ -10,14 +10,10 @@
 4. From the Subaccount dropdown select the **Joule** subaccount created earlier and click **Next**.</br>
 ![run_booster](4.png)
 
-5. Select **SAP SuccessFactors** and click **Next**.</br>
+5. From the **Select System** dropdown, select SAP SuccessFactors system registered earlier and click **Validate**.</br>
 ![run_booster](5.jpg)
-
-6. Specify the SuccessFactors **Tenant Domain**, **Company Code** and click **Validate**.                   
-**Note**: Tenant domain should be entered without trailing forward slash at the end of the URL.  Customers already migrated to common super domain (CSD) should use the **Pre CSD Migration URL** of their SuccessFactors tenant. See preparation steps for more information.</br>             
-![run_booster](6.png)
-
-7. Confirm the validation is successful and click **Next**.
-8. Validate the information on the summary screen and click **Finish**.
+6. Confirm the validation is successful and click **Next**.
+7. Validate the information on the summary screen and click **Finish**.
+![run_booster](8.jpg)
 9. Confirm the booster execution is successful and click **Close**.</br>
 ![run_booster](7.png)
