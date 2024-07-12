@@ -1,16 +1,13 @@
 **NOTE**: Below steps are valid for Employee Central customers only.  You may skip this section if not testing the Employee Central specific use cases.
-1. Go to **Admin Center**-> **Manage Employee Central Settings** and switch on **Employee Central Quick Actions**.</br>
-![EC_QA_Template](1Manage_EC_Settings.png)
-
-3. Go to **Admin Center >> Manage Permission Role**.
-4. Under **Manage Business Configuration** >> **Employee Central Quick Action Template** enable the **Visibility** and **Actions** permissions.</br>
+1. Go to **Admin Center >> Manage Permission Role**.
+2. Under **Manage Business Configuration** >> **Employee Central Quick Action Template** enable the **Visibility** and **Actions** permissions.</br>
 ![EC_QA_Template](2MBC_Permission.png)
 
-5. Save your changes.
-7. Access **Admin Center** >> **Manage Data** and confirm **Employee Central Quick Action Template** objects are visible in the dropdown.</br>
+3. Save your changes.
+4. Access **Admin Center** >> **Manage Data** and confirm **Employee Central Quick Action Template** objects are visible in the dropdown.</br>
 ![EC_QA_Template](6MD_dropdown.jpg)
 
-9. If objects are not visible, then you can create the template objects by clicking on Create New and select Employee Central Quick Action Templates.</br>
+5. If objects are not visible, then you can create the template objects by clicking on Create New and select Employee Central Quick Action Templates.</br>
 ![EC_QA_Template](4Create_EC_QA.png)
 
 **Templates assignments to User**
