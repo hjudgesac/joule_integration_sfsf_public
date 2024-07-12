@@ -11,7 +11,7 @@
 ![run_booster](4.png)
 
 5. Select **SAP SuccessFactors** and click **Next**.</br>
-![run_booster](5.png)
+![run_booster](5.jpg)
 
 6. Specify the SuccessFactors **Tenant Domain**, **Company Code** and click **Validate**.                   
 **Note**: Tenant domain should be entered without trailing forward slash at the end of the URL.  Customers already migrated to common super domain (CSD) should use the **Pre CSD Migration URL** of their SuccessFactors tenant. See preparation steps for more information.</br>             
