@@ -53,6 +53,8 @@ For example, for DC68 production SuccessFactors tenants the corresponding **API 
   * **Create Integration with SAP BTP** permission from the **Manage Extensions** on SAP BTP category.
     ![prepare_activation](6.jpg)
 
+**NOTE:** If Extension Center is not visible in Admin Center, follow the steps in the note [3414682 - Unable to View Extension Center even related permissions are granted](https://userapps.support.sap.com/sap/support/knowledge/en/3414682).
+
 ## 6. Create API User in SuccessFactors
 
 An API user with **Allow Admin to Access OData API through Basic Authentication** permission is required in SuccessFactors.  This user will be used to create the BTP destinations in later steps.  If the user doesn't already exist, follow the steps in the **Create API User in SuccessFactors** card to create a new API user with the correct permissions.<br/>
