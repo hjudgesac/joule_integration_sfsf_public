@@ -10,10 +10,15 @@
 4. From the Subaccount dropdown select the **Joule** subaccount created earlier and click **Next**.</br>
 ![run_booster](4.png)
 
-5. From the **Select System** dropdown, select SAP SuccessFactors system registered earlier and click **Validate**.</br>
+5. Choose **SAP SuccessFactors** and click **Next**.</br>
+![run_booster](4-1.png)
+
+7. From the **Select System** dropdown, select SAP SuccessFactors system registered earlier and click **Validate**.</br>
 ![run_booster](5.jpg)
-6. Confirm the validation is successful and click **Next**.
-7. Validate the information on the summary screen and click **Finish**.
+
+9. Confirm the validation is successful and click **Next**.
+10. Validate the information on the summary screen and click **Finish**.
 ![run_booster](8.jpg)
-9. Confirm the booster execution is successful and click **Close**.</br>
+
+12. Confirm the booster execution is successful and click **Close**.</br>
 ![run_booster](7.png)
