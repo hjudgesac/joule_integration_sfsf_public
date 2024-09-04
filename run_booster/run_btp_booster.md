@@ -10,10 +10,16 @@
 4. From the Subaccount dropdown select the **Joule** subaccount created earlier and click **Next**.</br>
 ![run_booster](4.png)
 
-5. Choose **SAP SuccessFactors** and click **Next**.</br>
+5. From the Products dropdown select **SAP SuccessFactors** and choose whether the integration is for **Testing or Production**.  Click **Next**.<br>
+![run_booster](9.jpg)
+
+6. Confirm the **SAP SuccessFactors** is selected from the Capability Pacakages dropdown and click **Next**.<br>
+![run_booster](10.jpg)
+
+7. Choose **SAP SuccessFactors** and click **Next**.</br>
 ![run_booster](4-1.png)
 
-7. From the **Select System** dropdown, select SAP SuccessFactors system registered earlier and click **Validate**.</br>
+8. From the **Select System** dropdown, select SAP SuccessFactors system registered earlier and click **Validate**.</br>
 ![run_booster](5.jpg)
 
 9. Confirm the validation is successful and click **Next**.
