@@ -10,21 +10,20 @@
 4. From the Subaccount dropdown select the **Joule** subaccount created earlier and click **Next**.</br>
 ![run_booster](4.png)
 
-5. From the Products dropdown select **SAP SuccessFactors** and choose whether the integration is for **Testing or Production**.  Click **Next**.<br>
+5. From the Products dropdown select **SAP SuccessFactors** and choose whether the integration is for **Testing or Production**.  Click **Next**.</br>
 ![run_booster](9.jpg)
 
 6. Confirm the **SAP SuccessFactors** is selected from the Capability Pacakages dropdown and click **Next**.<br>
 ![run_booster](10.jpg)
 
-7. Choose **SAP SuccessFactors** and click **Next**.</br>
-![run_booster](4-1.png)
+7. Leave the default **Formation Name**.  From the SAP SuccessFactors System dropdown choose the SuccessFactors system registered under the BTP System Landscape in earlier steps.  Click **Next**.</br> 
+![run_booster](11.jpg)
 
-8. From the **Select System** dropdown, select SAP SuccessFactors system registered earlier and click **Validate**.</br>
-![run_booster](5.jpg)
+8. Confirm the data center mapping check is successful and click **Next**.</br>
+  ![run_booster](12.jpg)
 
-9. Confirm the validation is successful and click **Next**.
-10. Validate the information on the summary screen and click **Finish**.
-![run_booster](8.jpg)
+9. Review the configuration settings and click **Finish**.</br>
+  ![run_booster](13.jpg)
 
-12. Confirm the booster execution is successful and click **Close**.</br>
+10. Confirm the booster execution is successful and click **Close**.</br>
 ![run_booster](7.png)
