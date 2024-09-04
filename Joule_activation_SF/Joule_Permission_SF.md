@@ -18,13 +18,14 @@
 ![Joule_activation_SF](5Role_name.jpg)
 
 9. Under **General User Permission >> Access to Joule** permission and click **Done**.</br>
+**Note**: You may need to start a brand new browser session if the permission is not visible.</br>
 ![Joule_activation_SF](1Joule_Access.jpg)
 
-10. Under **Grand this role to..** Click **Add** and select the permission group created earlier.</br> 
+11. Under **Grand this role to..** Click **Add** and select the permission group created earlier.</br> 
 ![Joule_activation_SF](6Group_Add.jpg) 
 ![Joule_activation_SF](7Select_Group.jpg)
 
-11. Click **Done**.</br>
+12. Click **Done**.</br>
 ![Joule_activation_SF](8group_added.jpg)
 
 13. Click **Done** again on the next screen. 
