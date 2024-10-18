@@ -31,3 +31,6 @@
 
 12. Open the file in a text editor to review its content.  Make note of the items in red as they will be required for further configuration.</br>
 ![create_wz](11.jpg)
+
+13.  In the BTP cockpit, navigate to your Global Account.  Under **System Landscape** and confirm that you now also see a new system of type **SAP Start** listed as a registered system.  This system is automatically added to the System Landscape from the SAP Build Work Zone subscription that you created earlier.  Make a note of the **System Name** for this system as it will come in handy later when executing the Joule booster.</br>
+![create_wz](12.jpg)
