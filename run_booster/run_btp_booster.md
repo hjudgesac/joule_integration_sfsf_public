@@ -16,10 +16,10 @@
 6. Confirm the **SAP SuccessFactors** is selected from the Capability Pacakages dropdown and click **Next**.<br>
 ![run_booster](10.jpg)
 
-7. Leave the default **Formation Name**.  From the SAP SuccessFactors System dropdown choose the SuccessFactors system registered under the BTP System Landscape in earlier steps.  Click **Next**.</br> 
+7. Leave the default **Formation Name**.  From the SAP SuccessFactors System dropdown choose the SuccessFactors system registered under the BTP System Landscape in earlier steps.  For SAP Start System, select the SAP Build Work Zone subscription that you created earlier in BTP subaccount.  Click **Next**.</br> 
 ![run_booster](11.jpg)
 
-8. Confirm the data center mapping check is successful and click **Next**.</br>
+8. Confirm the validation check is successful and click **Next**.</br>
   ![run_booster](12.jpg)
 
 9. Review the configuration settings and click **Finish**.</br>
