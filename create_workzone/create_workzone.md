@@ -1,4 +1,3 @@
-1. Navigate back to the BTP Cockpit browser tab.
 2. From the Navigation Pane on the left, select **Instances and Subscriptions**.  Click **Create**. </br>
 ![create_wz](1.jpg)
 
