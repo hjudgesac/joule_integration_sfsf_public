@@ -29,7 +29,7 @@ In the scenarios above, please work with Account Executive, BTP Customer Success
 
 ## 3. Verify Supported Data Centers for Joule
 
-SAP Joule in selected data centers but this list is expanding on regular basis.  See the list of [Data Centers Supported by Joule](https://help.sap.com/docs/joule/serviceguide/data-centers-supported-by-joule).
+Joule is supported in selected data centers, but this list is expanding on regular basis.  See the list of [Data Centers Supported by Joule](https://help.sap.com/docs/joule/serviceguide/data-centers-supported-by-joule). The BTP subaccount should be in one of these supported data centers for Joule setup.  We will create this subaccount in later steps.
 
 ## 4. Validate Global User ID of SuccessFactors User
 
