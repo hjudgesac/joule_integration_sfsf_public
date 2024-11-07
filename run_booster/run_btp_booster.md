@@ -16,7 +16,7 @@
 6. Confirm the **SAP SuccessFactors** is selected from the Capability Pacakages dropdown and click **Next**.<br>
 ![run_booster](10.jpg)
 
-7. Leave the default **Formation Name**.  From the SAP SuccessFactors System dropdown choose the SuccessFactors system registered under the BTP System Landscape in earlier steps.  For SAP Build Work Zone, select the SAP Build Work Zone subscription that you created earlier in BTP subaccount.  Similary for SAP Cloud Identity Services system choose the system registered in BTP Global Account. The SAP Cloud Identity Service tenant chosen here must match what used by SuccessFactors and what was selected during the setup of the BTP subaccount trust. Click **Next**.</br> 
+7. Leave the default **Formation Name**.  From the SAP SuccessFactors System dropdown choose the SuccessFactors system registered under the BTP System Landscape in earlier steps.  For SAP Build Work Zone, select the SAP Build Work Zone subscription that you created earlier in BTP subaccount.  Similary for SAP Cloud Identity Services system, choose the system registered in BTP Global Account. The SAP Cloud Identity Services tenant chosen here must match what is used by SuccessFactors and what was selected during the setup of the BTP subaccount trust. Click **Next**.</br> 
 ![run_booster](11.jpg)
 
 8. Confirm the validation check is successful and click **Next**.</br>
